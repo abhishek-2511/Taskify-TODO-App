@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 /* connected to the database and added params to ignore all the deprecation warnings */
-mongoose.connect('mongodb://127.0.0.1/todo_list_database', {useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://0.0.0.0/todo_list_database', {useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
 
